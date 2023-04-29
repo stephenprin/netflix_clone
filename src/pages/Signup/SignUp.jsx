@@ -15,7 +15,7 @@ const SignUp = () => {
       email.current.value,
       password.current.value
     ).then((user) => {
-      console.log('User created')
+     
       console.log(user)
     }).catch((error) => { 
       alert(error.message)
@@ -27,7 +27,7 @@ const SignUp = () => {
       email.current.value,
       password.current.value
     ).then((user) => {
-      console.log('User signed in')
+      
       console.log(user)
     }).catch((error) => {
       alert(error.message)
